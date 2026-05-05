@@ -1,0 +1,142 @@
+    1  /cita/loca/bin/passwd
+    2  pwd
+    3  /cita/local/bin/passwd
+    4  logout
+    5  /cita/local/bin/passwd
+    6  logout
+    7  ls
+    8  ls -la
+    9  vi .bashrc
+   10  pwd
+   11  cd /fs/lustre/scratch/ethankwan
+   12  ls
+   13  pwd
+   14  cd ~
+   15  pwd
+   16  ls
+   17  pwd
+   18  ls
+   19  ls -la
+   20  vi .bashrc
+   21  scratch
+   22  cd /fs/lustre/scratch/ethankwan
+   23  pwd
+   24  ls
+   25  cd ~
+   26  ls
+   27  scratch
+   28  vi .bashrc
+   29  . ~/.bashrc
+   30  scratch
+   31  ls
+   32  git
+   33  ssh ethan.kwan@cosmo8.cita.utoronto.ca
+   34  logout
+   35  ls
+   36  scratch
+   37  ls
+   38  cd /mnt/scratch-lustre
+   39  pwd
+   40  ls
+   41  cd ethankwan
+   42  ls
+   43  cd ~
+   44  scratch
+   45  ls
+   46  pwd
+   47  scratch
+   48  ls
+   49  pwd
+   50  ls
+   51  git clone https://github.com/CITA/CTA200H.git
+   52  ls
+   53  cd CTA200_2026/
+   54  ls
+   55  cd assignment_1/
+   56  ls
+   57  pwd
+   58  scratch
+   59  /cita/local/bin/passwd
+   60  ssh cosmo3
+   61  ssh cosmo1
+   62  logout
+   63  ls -la
+   64  vi .bashrc
+   65  find Hello_world.c
+   66  ls
+   67  pwd
+   68  cd /home
+   69  pwd
+   70  ls
+   71  find Hello_world.c
+   72  cd murray
+   73  ls
+   74  pwd
+   75  cd /home
+   76  find Hello_world.c
+   77  find Hello_world.py
+   78  cd murray
+   79  find Hello_world.c
+   80  logout
+   81  ls
+   82  logout
+   83  /cita/local/passwd
+   84  logout
+   85  /cita/local/passwd
+   86  /cita/local/bin/passwd
+   87  ssh cosmo8
+   88  ssh -L 2125:localhost:2125 cosmo8
+   89  cd /home
+   90  cd murray
+   91  find Hello_world.c
+   92  find Hello_world.py
+   93  pwd
+   94  cd ~
+   95  pwd
+   96  l
+   97  ls
+   98  mkdir CTA200_2026
+   99  cd CTA200_2026/
+  100  mkdir assignment_1
+  101  touch README.md
+  102  vi README.md
+  103  touch Hello_world.py
+  104  vi Hello_world.py
+  105  python
+  106  module load python/3.10.2
+  107  python
+  108  python run Hello_world.py
+  109  python Hello_world.pu
+  110  python Hello_world.py
+  111  touch Hello_world.c
+  112  vi Hello_world.c
+  113  module
+  114  module load gcc
+  115  gcc Hello_world.c
+  116  vi Hello_world.c
+  117  ls
+  118  gcc Hello_world.c
+  119  ls
+  120  gcc Hello_world.c -o Hello_world.x
+  121  ls
+  122  rm a.out
+  123  ls
+  124  Hello_world.x
+  125  gcc Hello_world.x
+  126  gcc Hello_world.c
+  127  ls
+  128  rm a.out
+  129  ./Hello_world.x
+  130  ./Hello_world.x > output_c.txt
+  131  ls
+  132  python Hello_world.py > output_python.txt
+  133  ls
+  134  mv man
+  135  mv --help
+  136  mv -i * assignment_1
+  137  ls
+  138  mv assignment_1/README.md .
+  139  ls
+  140  cd assignment_1/
+  141  ls
+  142  history > history.txt
