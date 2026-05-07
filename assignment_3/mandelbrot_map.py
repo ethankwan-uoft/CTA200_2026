@@ -1,5 +1,5 @@
 '''
-@iteration.py
+@mandelbrot_map.py
 @author: Ethan Kwan
 @May 5, 2026
 @iteration function used for assignment 3, question 1.

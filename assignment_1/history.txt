@@ -140,3 +140,229 @@
   140  cd assignment_1/
   141  ls
   142  history > history.txt
+  143  ls
+  144  vi history.txt 
+  145  pwd
+  146  cd ..
+  147  ls
+  148  git init
+  149  ls
+  150  ls -la
+  151  git add README.md
+  152  git add assignment_1/Hello_world.c
+  153  git add assignment_1/Hello_world.py
+  154  git add assignment_1/output_c.txt
+  155  git add assignment_1/output_python.txt
+  156  git add assignment_1/history.txt
+  157  git remote add origin git@github.com:ethankwan-uoft/CTA200_2026.git
+  158  git commit -m "a1"
+  159  git push -u origin main
+  160  git remote
+  161  git push -u origin main
+  162  git push origin main
+  163  git remote add origin git@github.com:ethankwan-uoft/CTA200_2026.git
+  164  git branch -M main
+  165  git push -u origin main
+  166  ssh -vT git@github.com
+  167  eval "$(ssh-agent -s)"
+  168  ssh-add -l -E sha256
+  169  ssh-keygen -t ed25519 -C "ethan.kwan@mail.utoronto.ca"
+  170  open ~/.ssh/config
+  171  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  172  pwd
+  173  cd ~
+  174  ls
+  175  ls -la
+  176  cd .ssh
+  177  ls
+  178  ssh-add -l
+  179  ssh-add
+  180  ssh-add -
+  181  pwd
+  182  ssh-add -l
+  183  ls
+  184  cd .ssh
+  185  ls
+  186  ssh-add
+  187  eval 'ssh-agent'
+  188  ssh-add
+  189  eval "$(ssh-agent -s)"
+  190  ssh-add -l
+  191  ssh-add
+  192  ssh-add -l
+  193  pbcopy < ~/.ssh/id_ed25519.pub
+  194  pwd
+  195  vi id_ed25519.pub
+  196  cd ~
+  197  ls
+  198  cd CTA200_2026/
+  199  git push -u origin main
+  200  ls
+  201  mmkdir assignment_2
+  202  mkdir assignment_2
+  203  ls -la
+  204  cd assignment_2
+  205  ls
+  206  logout
+  207  module load python/3.10.2
+  208  jupyter notebook --port==2125 --no-browser
+  209  jupyter notebook --port=2125 --no-browser
+  210  logout
+  211  logout
+  212  module load python/3.10.2
+  213  jupyter notebook --port=2125 --no-browser
+  214  logout
+  215  ssh -L 2125:localhost:2125 ethankwan@cosmo8
+  216  ssh -L 2125:localhost:2125 cosmo8
+  217  logout
+  218  ssh -L 2125:localhost:2125 cosmo8
+  219  module load python/3.10.2
+  220  jupyter notebook --port=2125 --no-browser
+  221  ls
+  222  cd CTA200_2026/
+  223  ls
+  224  git add assignment_2
+  225  git commit -m "a2"
+  226  git push
+  227  git push origin
+  228  history
+  229  git push -u origin main
+  230  ssh-add -l
+  231  eval "$(ssh-agent -s)"
+  232  ssh-add -l
+  233  cd ~
+  234  ls
+  235  ls -la
+  236  vi .ssh
+  237  cd .ssh
+  238  ls
+  239  vi id_ed25519.pub
+  240  ssh-add -l
+  241  ssh-add
+  242  ssh-add -l
+  243  cd ~
+  244  cd CTA200_2026/
+  245  cd assignment_2
+  246  git push -u origin main
+  247  jupyter notebook --port=2125 --no-browser
+  248  pwd
+  249  cd ..
+  250  jupyter notebook --port=2125 --no-browser
+  251  cd CTA200_2026/
+  252  cd assignment_2
+  253  cd ..
+  254  cd assignment_3
+  255  ls
+  256  git add assignment.ipynb 
+  257  git add mandelbrot_map.py 
+  258  git commit -m 'a3 p1'
+  259  git push -u origin main
+  260  ssh-add
+  261  cd ~
+  262  cd .ssh
+  263  ls
+  264  eval 'ssh-agent'
+  265  ssh-add
+  266  echo $SSH_AGENT_SOCK
+  267  echo $SSH_AGENT_S0CK
+  268  ssh-add -l
+  269  eval "$(ssh-agent -s)"
+  270  ssh-add
+  271  cd ~/CTA200_2026/assignment_3
+  272  git push -u origin main
+  273  logout
+  274  ssh -L 3621:localhost:3621 cosmo8
+  275  logout
+  276  ssh -L 3621:localhost:3621 cosmo8
+  277  module load python/3.10.2
+  278  jupyter notebook --port=3621 --no-browser
+  279  module load python/3.10.2
+  280  jupyter notebook --port=1145 --no-browser
+  281  ls
+  282  cd CTA200_2026/
+  283  cd assignment_3
+  284  ls
+  285  git add assignment.ipynb 
+  286  git add lorenz_eqns.py 
+  287  git commit -m 'beginning a3 pt2'
+  288  git push -u origin main
+  289  eval '$(ssh-agent -s)'
+  290  cd ~
+  291  eval "$(ssh-agent -s)"
+  292  ssh-add
+  293  git push -u origin main
+  294  cd CTA200_2026/assignment_3
+  295  git push -u origin main
+  296  logout
+  297  ssh -L 1145:localhost:1145 cosmo8
+  298  logout
+  299  cd /fs
+  300  cd lustre
+  301  cd scratch
+  302  scratch
+  303  scratch
+  304  ls
+  305  pwd
+  306  scratch
+  307  scratch
+  308  ls
+  309  ls -la
+  310  scratch
+  311  ssh -L 2125:localhost:2125 cosmo3
+  312  cd /home
+  313  ls
+  314  pwd
+  315  cd murray
+  316  find Hello_world.c
+  317  pwd
+  318  find Hello_world.py
+  319  find
+  320  ssh -L 2125:localhost:2125 cosmo3
+  321  find / -name "Hello_world.c"
+  322  pwd
+  323  cd /home
+  324  cd murray
+  325  find . -name "Hello_world.c"
+  326  ls
+  327  find . -name Hello_world.c
+  328  ls
+  329  find . -name Hello_world.py
+  330  cd tmp
+  331  ls
+  332  pwd
+  333  cp Hello_world.py ~
+  334  cd ..
+  335  cd Papers/
+  336  ls
+  337  cd tmp
+  338  ls
+  339  cp Hello_world.c ~
+  340  cd ~
+  341  ls
+  342  mv Hello_world.c CTA200_2026/assignment_1/
+  343  mv Hello_world.py CTA200_2026/assignment_1
+  344  cd CTA200_2026/assignment_1
+  345  ls
+  346  rm output_c.txt 
+  347  rm output_python.txt 
+  348  rm Hello_world.x
+  349  rm history.txt 
+  350  mv Hello_world.c Hello_world_Kwan.c
+  351  mv Hello_world.py Hello_world_Kwan.py
+  352  ls
+  353  module load gcc
+  354  gcc Hello_world_Kwan.c -o Hello_world.x
+  355  ls
+  356  python Hello_world_Kwan.py
+  357  module load python
+  358  python Hello_world_Kwan.py
+  359  ./Hello_world_Kwan.c
+  360  ./Hello_world.x
+  361  vi Hello_world_Kwan.py
+  362  vi Hello_world_Kwan.c
+  363  gcc Hello_world_Kwan.c -o Hello_world.x
+  364  ls
+  365  ./Hello_world.x > output_c.txt
+  366  python Hello_world_Kwan.py > output_python.txt
+  367  ls
+  368  history > history.txt
